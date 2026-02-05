@@ -461,32 +461,23 @@
             color: var(--accent);
         }
 
-        .social-icons {
-            display: flex;
-            gap: 15px;
-            margin: 20px 0;
-            justify-content: center;
-        }
+                    .social-icons {
+            margin-top: 15px;
+            }
 
-        .social-icon {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            color: white;
-            text-decoration: none;
-            transition: var(--transition);
-        }
+            .social-icons a {
+            margin-right: 15px;
+            font-size: 24px;
+            color: #989393;
+            transition: 0.3s;
+            }
 
-        .social-icon:hover {
-            background-color: var(--secondary);
-            transform: translateY(-5px);
-        }
+            .social-icons a:hover {
+            color: #0a66c2; /* LinkedIn blue */
+            }
 
-        .copyright {
+
+            .copyright {
             padding-top: 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             font-size: 0.9rem;
