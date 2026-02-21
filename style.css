@@ -301,8 +301,9 @@
 
 .project-card {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   
 }
 
 .project-card:hover {
